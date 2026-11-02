@@ -1,0 +1,22 @@
+table, td,th{
+    border: 1px solid  black
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+th{
+    text-align: center;
+    height: 40px;
+    background-color: cornflowerblue;
+}
+tr{
+    background-color: powderblue;
+}
+tr:nth-child(even){
+    background-color: beige;
+}
+tr:hover{
+    background-color: pink;
+}

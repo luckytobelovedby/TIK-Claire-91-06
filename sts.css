@@ -1,0 +1,183 @@
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Navigation Links */
+.topnav a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: cornsilk;
+    color: blue;
+}
+
+h2{
+    color: cornflowerblue;
+    background-color: wheat;
+    text-align: center;
+}
+
+h1{
+    color:cornflowerblue;
+    background-color: wheat;
+    text-align: center;
+}
+
+.card-box {
+    background-color: wheat;   
+    border-radius: 35px;     
+    padding: 25px;            
+    margin: 20px auto;
+    width: 80%;               
+    color: black;          
+    overflow: auto;            
+}
+
+p {
+  font-size: 110%;
+}
+
+.card-img {
+    float: left;               
+    margin-right: 20px;       
+    margin-bottom: 15px;        
+    border-radius: 20px;                    
+    object-fit: cover;
+}
+
+
+.foto {
+  display: flex;      
+  justify-content: center;  
+  align-items: center;
+  gap: 25px;            
+  border-radius: 25px
+}
+
+@font-face {
+  font-family: starshine;
+  src: url(starshines/Starshines.ttf) format('truetype');
+}
+
+h1 {
+  font-family: starshine, sans-serif;
+}
+img {
+   border: 4px solid white;  
+    border-radius: 15px;    
+    box-sizing: border-box;
+}
+
+
+.hover-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+    margin: 20px auto 40px auto;
+}
+
+.review-card {
+    background-color: #ffffff;
+    border: 5px solid #e9dcb6; 
+    border-radius: 35px;     
+    padding: 25px 20px;
+    flex: 1;                
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: left;        
+    box-sizing: border-box;
+}
+
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-color: cornflowerblue;
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    background-color: #000000; 
+    border-radius: 50%;       
+    margin-bottom: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;           
+    border-radius: 50%;
+}
+
+.stars {
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.review-text {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    color: #333333;
+    line-height: 1.4;
+    word-break: break-word; 
+}
+
+.review-link-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto 40px auto;
+    width: 100%;
+}
+
+.btn-review {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.btn-review:hover {
+    background-color: #3b71ca;
+    text-align: center;
+}
